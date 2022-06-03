@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 15 px;
+    line-height: 1, 6;
+    color: #333;
+}
+*,
+*:before,
+*:after{
+box-sizing:border-box;
+}
+    h1,h2,h3,h4,h5,h6 {
+        margin:0;
+    }
+    .container{
+        width:100;
+        max-height: 1200px;
+        margin: 0 auto;
+    }
+    .intro{
+        width: 100%;
+        height: 100 px;
+        background: 
+            url("images/intro.jpg")center no-repeat;
+        -webkit-background:zise colored;
+            
+    }
+.intro_inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.intro_title{
+    color: #fff;
+    font-size: 1500 px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+    .intro_suptible{
+        font-family:"kaushap cursiv";
+        font-size: 72 px;
+        color:#fff;
+        text-align: center;
+        
+    }
+    .header{
+    width: 100%
+        postion:absolte;ercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000%;
+    }
+
+.slider{
+    position: absolute;
+}
+.slider_inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.slider_item{
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
+    
+    border-top: 3px solid #fff;
+    opacity: .7;
+}
+.slider_item.active{
+    opacity: 1;
+}
+.slider_item.active:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    
+    background-color: #f38181;
+    
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+.sluder_num {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%
+    ;
+    height: 3px;
+    
+    background-color: #fce38a
+        opacity: 0;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover {
+    color: #fce38a;
+}
+
+.nav_link.active:after {
+    opacity: 1;
+}
+
+.nav_link.active {
+    color: #fce38a;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    transition: background .1s
+    linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.section{
+    padding: 80px 0;
+}
+.section_header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    
+    text-align: center;
+    
+}
+.
